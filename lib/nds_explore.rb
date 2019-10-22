@@ -7,7 +7,7 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  print directors_database[0][:movies][0][:title], directors_database[0][:movies][0][:title]
+  print directors_database[0][:movies][0][:title], /n directors_database[0][:movies][0][:title]
 
 
 end
