@@ -7,8 +7,8 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  print directors_database[0][:movies][0][:title]
-  print "n/ #{directors_database[0][:movies][0][:title]}"
+  printf directors_database[0][:movies][0][:title]
+  printf "n/ #{directors_database[0][:movies][0][:title]}"
 
 
 end
